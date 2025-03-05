@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pyparsing import alphas
 
 csv_dir = "csv_files"
-plot_dir = "res"
+plot_dir = "../res"
 individual_dir = os.path.join(plot_dir, "individual")
 
 os.makedirs(plot_dir, exist_ok=True)
